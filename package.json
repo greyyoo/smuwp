@@ -1,0 +1,46 @@
+{
+  "name": "smuwp",
+  "version": "0.6.0",
+  "author": "Gahee Yoo",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".jsr,.vue\" --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.11.1",
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/pwa": "^3.3.4",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.8.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase": "^8.2.3",
+    "fuse.js": "^6.4.6",
+    "lodash": "^4.17.20",
+    "nuxt": "^2.14.12",
+    "nuxt-start": "^2.14.12",
+    "sanitize-html": "^2.3.0",
+    "tiptap": "^1.31.0",
+    "tiptap-extensions": "^1.34.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "nuxt": "^2.14.12",
+    "@nuxtjs/eslint-config": "^5.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.4.1",
+    "sass": "^1.32.4",
+    "sass-loader": "^10.1.1"
+  }
+}
